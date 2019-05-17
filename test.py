@@ -1,14 +1,13 @@
-weight =
+weight = 90
 height = 1.80
-bmi = weight /(height**2)
-print (bmi)
-if 18 < bmi < 25 :
-    print("normal")
+bmi = weight / (height ** 2)
+
+bmi = 18
+print(bmi)
+
 if bmi > 25:
-        print ("over")
+    print("over")
 elif bmi < 18:
-        print("under")
-
-
-
-
+    print("under")
+else:
+    print("normal")
