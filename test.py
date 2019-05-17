@@ -1,9 +1,14 @@
-weight = 90
+weight =
 height = 1.80
 bmi = weight /(height**2)
 print (bmi)
 if 18 < bmi < 25 :
     print("normal")
-else:
-    print("not normal")
+if bmi > 25:
+        print ("over")
+elif bmi < 18:
+        print("under")
+
+
+
 
