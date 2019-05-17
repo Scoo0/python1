@@ -1,13 +1,12 @@
-weight = 90
-height = 1.80
+weight =float(input("enter kg:"))
+height = float(input("enter your height:"))
 bmi = weight / (height ** 2)
 
-bmi = 18
 print(bmi)
 
 if bmi > 25:
-    print("over")
+    print("ezafe kari dari dadash")
 elif bmi < 18:
-    print("under")
+    print("bokhor namiri")
 else:
-    print("normal")
+    print("jon baba")
